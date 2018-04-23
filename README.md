@@ -37,7 +37,7 @@ The `bin` folder is for any system modules your package will use or generate.
 
 * The compiled `node_gyp` output for your module's binary code.
 * Pre-compiled platform binaries.
-* [package.json/bin](https://docs.npmjs.com/cli/bin) scripts for your module.
+* [package.json/bin](https://docs.npmjs.com/files/package.json#bin) scripts for your module.
 
 ## How to organize GitHub Issues & Pull Requests
 
