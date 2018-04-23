@@ -53,9 +53,6 @@ The `bin` folder is for any system modules your package will use or generate.
 - ![#ee3f46](https://placehold.it/15/ee3f46/000000?text=+) `bug`
 - ![#ee3f46](https://placehold.it/15/ee3f46/000000?text=+) `security`
 
-**Miscellaneous:**
-- ![#fef2c0](https://placehold.it/15/fef2c0/000000?text=+) `chore`
-
 **Experience:**
 - ![#ffc274](https://placehold.it/15/ffc274/000000?text=+) `ux`
 - ![#ffc274](https://placehold.it/15/ffc274/000000?text=+) `ui`
@@ -86,3 +83,6 @@ The `bin` folder is for any system modules your package will use or generate.
 - ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `duplicate`
 - ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `invalid`
 - ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `wontfix`
+
+**Miscellaneous:**
+- ![#fef2c0](https://placehold.it/15/fef2c0/000000?text=+) `chore`
