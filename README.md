@@ -1,5 +1,9 @@
 # ARK Development Guidelines
 
+<p align="center">
+    <img src="https://github.com/ArkEcosystem/ARK-Development-Guidelines/blob/master/banner.png" />
+</p>
+
 ## Introduction
 
 While the following guidelines are not an absolute requirement or need to be enforced by tools, it is a recommendation based on what we have been doing in our projects lately.
