@@ -10,6 +10,10 @@ While the following guidelines are not an absolute requirement or need to be enf
 
 ## How to approach `JavaScript` projects
 
+### Dependencies
+
+Make sure that all dependencies you use are maintainted and receive new releases on a regular basis. Also try to use https://www.npmjs.com/package/npm-check-updates every now and then to check for outdated dependencies in your package.
+
 ### Directory Structure
 
 * `lib/` is intended for code that can run as-is with `require()`.
