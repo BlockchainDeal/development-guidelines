@@ -85,12 +85,12 @@ The `bin` folder is for any system modules your package will use or generate.
 **Pending:**
 - ![#fbca04](https://placehold.it/15/fbca04/000000?text=+) `backlog`
 - ![#fbca04](https://placehold.it/15/fbca04/000000?text=+) `in progress`
-- ![#fbca04](https://placehold.it/15/fbca04/000000?text=+) `on hold`
 
 **Inactive:**
 - ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `duplicate`
 - ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `invalid`
 - ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `wontfix`
+- ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `on hold`
 
 **Miscellaneous:**
 - ![#fef2c0](https://placehold.it/15/fef2c0/000000?text=+) `chore`
