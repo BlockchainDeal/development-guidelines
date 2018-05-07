@@ -49,7 +49,7 @@ The `bin` folder is for any system modules your package will use or generate.
 
 ## How to organize GitHub Issues & Pull Requests
 
-**Platform:**
+**Platform:** `#bfd4f2`
 - ![#bfd4f2](https://placehold.it/15/bfd4f2/000000?text=+) `angular`
 - ![#bfd4f2](https://placehold.it/15/bfd4f2/000000?text=+) `bash`
 - ![#bfd4f2](https://placehold.it/15/bfd4f2/000000?text=+) `browser`
@@ -57,40 +57,40 @@ The `bin` folder is for any system modules your package will use or generate.
 - ![#bfd4f2](https://placehold.it/15/bfd4f2/000000?text=+) `nodejs`
 - ![#bfd4f2](https://placehold.it/15/bfd4f2/000000?text=+) `vue`
 
-**Problems:**
+**Problems:** `#ee3f46`
 - ![#ee3f46](https://placehold.it/15/ee3f46/000000?text=+) `bug`
 - ![#ee3f46](https://placehold.it/15/ee3f46/000000?text=+) `security`
 
-**Experience:**
+**Experience:** `#ffc274`
 - ![#ffc274](https://placehold.it/15/ffc274/000000?text=+) `ux`
 - ![#ffc274](https://placehold.it/15/ffc274/000000?text=+) `ui`
 
-**Environment:**
+**Environment:** `#fad8c7`
 - ![#fad8c7](https://placehold.it/15/fad8c7/000000?text=+) `development`
 - ![#fad8c7](https://placehold.it/15/fad8c7/000000?text=+) `production`
 - ![#fad8c7](https://placehold.it/15/fad8c7/000000?text=+) `test`
 
-**Feedback:**
+**Feedback:** `#cc317c`
 - ![#cc317c](https://placehold.it/15/cc317c/000000?text=+) `discussion`
 - ![#cc317c](https://placehold.it/15/cc317c/000000?text=+) `question`
 
-**Improvements:**
+**Improvements:** `#5ebeff`
 - ![#5ebeff](https://placehold.it/15/5ebeff/000000?text=+) `enhancement`
 - ![#5ebeff](https://placehold.it/15/5ebeff/000000?text=+) `optimization`
 - ![#5ebeff](https://placehold.it/15/5ebeff/000000?text=+) `refactor`
 
-**Additions:**
+**Additions:** `#91ca55`
 - ![#91ca55](https://placehold.it/15/91ca55/000000?text=+) `feature`
 
-**Pending:**
+**Pending:** `#fbca04`
 - ![#fbca04](https://placehold.it/15/fbca04/000000?text=+) `backlog`
 - ![#fbca04](https://placehold.it/15/fbca04/000000?text=+) `in progress`
 
-**Inactive:**
+**Inactive:** `#d2dae1`
 - ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `duplicate`
 - ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `invalid`
 - ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `wontfix`
 - ![#d2dae1](https://placehold.it/15/d2dae1/000000?text=+) `on hold`
 
-**Miscellaneous:**
+**Miscellaneous:** `#fef2c0`
 - ![#fef2c0](https://placehold.it/15/fef2c0/000000?text=+) `chore`
