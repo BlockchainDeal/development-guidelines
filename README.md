@@ -8,8 +8,6 @@
 
 While the following guidelines are not an absolute requirement or need to be enforced by tools, it is a recommendation based on what we have been doing in our projects lately.
 
-## How to approach `JavaScript` projects
-
 ### Naming convention
 When creating a project make sure its name makes it obvious what the project is about.
 
@@ -33,8 +31,22 @@ If you're creating a web client for ARK:
 ❌ BAD: ark-client
 ```
 
+If you're creating a Python client for ARK:
+```
+✅ GOOD: ark-py-client
+❌ BAD: ark-client
+```
+
+If you're creating a Python CLI for ARK:
+```
+✅ GOOD: ark-py-cli
+❌ BAD: ark-client
+```
+
 ### Mind the scope
 When creating a library, please mind its scope and make it do one thing. Don't bloat it with additional features that could be a separate library. For example, if you're creating a simple node client for ARK, don't also implement CLI.
+
+## How to approach `JavaScript` projects
 
 ### Dependencies
 
