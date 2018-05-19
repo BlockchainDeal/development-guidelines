@@ -10,6 +10,32 @@ While the following guidelines are not an absolute requirement or need to be enf
 
 ## How to approach `JavaScript` projects
 
+### Naming convention
+When creating a project make sure its name makes it obvious what the project is about.
+
+##### Examples:
+If you're creating a NodeJS client for ARK
+```
+✅ GOOD: ark-node-client
+❌ BAD: ark-js
+```
+
+If you're creating a Javascript CLI
+
+```
+✅ GOOD: ark-js-cli
+❌ BAD: ark-client
+```
+
+If you're creating a web client for ARK:
+```
+✅ GOOD: ark-web-client
+❌ BAD: ark-client
+```
+
+### Mind the scope
+When creating a library, please mind its scope and make it do one thing. Don't bloat it with additional features that could be a separate library. For example, if you're creating a simple node client for ARK, don't also implement CLI.
+
 ### Dependencies
 
 Make sure that all dependencies you use are maintainted and receive new releases on a regular basis. Also try to use https://www.npmjs.com/package/npm-check-updates every now and then to check for outdated dependencies in your package.
