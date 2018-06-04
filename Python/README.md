@@ -72,11 +72,13 @@ For decades the recommended style was to break after binary operators. But this 
 
 ❌ operators sit far away from their operands
 ```python
-income = (gross_wages +
-      taxable_interest +
-      (dividends - qualified_dividends) -
-      ira_deduction -
-      student_loan_interest)
+income = (
+  gross_wages +
+  taxable_interest +
+  (dividends - qualified_dividends) -
+  ira_deduction -
+  student_loan_interest
+)
 ```
 
 To solve this readability problem, mathematicians and their publishers follow the opposite convention. Donald Knuth explains the traditional rule in his Computers and Typesetting series: "Although formulas within a paragraph always break after binary operations and relations, displayed formulas always break before binary operations".
@@ -86,11 +88,13 @@ Following the tradition from mathematics usually results in more readable code:
 ✅ easy to match operators with operands
 
 ```python
-income = (gross_wages
-      + taxable_interest
-      + (dividends - qualified_dividends)
-      - ira_deduction
-      - student_loan_interest)
+income = (
+  gross_wages
+  + taxable_interest
+  + (dividends - qualified_dividends)
+  - ira_deduction
+  - student_loan_interest
+)
 ```
 
 In Python code, it is permissible to break before or after a binary operator, as long as the convention is consistent locally. For new code Knuth's style is suggested.
@@ -161,7 +165,7 @@ Open source projects with a global audience are encouraged to adopt a similar po
   ```
 
   However, explicit relative imports are an acceptable alternative to absolute imports,
-  especially when dealing with complex package layouts where using absolute imports  would be unnecessarily verbose:
+  especially when dealing with complex package layouts where using absolute imports would be unnecessarily verbose:
 
   ```python
   from . import sibling
@@ -177,6 +181,7 @@ Open source projects with a global audience are encouraged to adopt a similar po
 
   ```python
   from myclass import MyClass
+
   from foo.bar.yourclass import YourClass
   ```
 
@@ -184,6 +189,7 @@ Open source projects with a global audience are encouraged to adopt a similar po
 
   ```python
   import myclass
+
   import foo.bar.yourclass
   ```
 
@@ -245,8 +251,8 @@ Avoid extraneous whitespace in the following situations:
 - Immediately before a comma, semicolon, or colon:
 
   ```
-  Yes: if x == 4: print x, y; x, y = y, x
-  No:  if x == 4 : print x , y ; x , y = y , x
+  ✅ Yes: if x == 4: print x, y; x, y = y, x
+  ❌ No:  if x == 4 : print x , y ; x , y = y , x
   ```
 
 - However, in a slice the colon acts like a binary operator, and should have equal amounts on either side (treating it as the operator with the lowest priority). In an extended slice, both colons must have the same amount of spacing applied. Exception: when a slice parameter is omitted, the space is omitted.

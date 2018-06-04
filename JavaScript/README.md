@@ -21,7 +21,7 @@ If you're creating a Javascript CLI
 
 If you're creating a web client for ARK:
 ```
-✅ GOOD: ark-web-client
+✅ GOOD: ark-js-web-client
 ❌ BAD: ark-client
 ```
 
